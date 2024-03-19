@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+form{
+    display: flex;
+}
+
+.bttns{
+    margin-top: 50px;
+}
+
+.bttns button{
+    margin-inline: 10px;
+    background-color: beige;
+    color: rgb(27, 27, 27);
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bttns button:hover{
+    background-color: rgb(216, 216, 189);
+}
+
+input[type = "text"]{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-inline: 10px;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+form p{
+    margin-inline: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resultado{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.incorrect{
+    border: 2px solid red !important; 
+}
+
+.correct{
+    border: 2px solid green !important; 
+}
+
+.false{
+    color: red;
+    font-size: 20px;
+}
+
+.true{
+    color: green;
+    font-size: 20px;
+}
+
+#high{
+    color: darkblue;
+    font-size: 20px;
+}
+
+#imagen-alt{
+    width: 300px;
+}
